@@ -10,13 +10,15 @@ Pengpai Li, Zhi-Ping Liu. MuToN Quantifies Binding Affinity Changes upon Protein
 * [Pytorch*](https://pytorch.org/) (v2.0.1). Pytorch with GPU version. Use to model, train, and evaluate the actual neural networks.
 * [Scikit-learn*](https://scikit-learn.org/) (v0.24.1). For machine learning relating computation.
 * [ESM*](https://github.com/facebookresearch/esm). For protein residue embedding.
+```
+pip install git+https://github.com/facebookresearch/esm.git
+```
 * [Modeller*](https://salilab.org/modeller/). For mutant protein structure modeling.  
 Installing refers to https://salilab.org/modeller/download_installation.html.  
 You need a license key to use Modeller first.  
 An easy way is to install Modeller using the 'conda' package manager, simply run from a command line under your environment:  
 ```
 conda install -c salilab modeller
-pip install git+https://github.com/facebookresearch/esm.git
 ```
 And then Edit the file config.py according to promption after installation by replacing XXXX with your Modeller license key.
 
